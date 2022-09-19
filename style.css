@@ -1,0 +1,91 @@
+:root{
+	--primary-color: #F07DEA;
+	--primary-color-alt:#A460ED;
+	--secondary-color:#9FC9F3;
+}
+
+body{
+	background-color: var(--secondary-color);
+}
+
+button{
+	border: none;
+}
+
+label,input{
+	display: block;
+	border: none;
+}
+
+.container{
+	display: block;
+	max-width: 600px;
+	border: 4px solid var(--primary-color);
+	margin: 5rem auto;
+	border-radius: 1rem;
+	/* border: 1px solid; */
+	/* padding: 10px; */
+	box-shadow: 5px 5px #585758 ;
+}
+
+.heading-title{
+	color: var(--primary-color-alt);
+	text-align: center;
+}
+
+.form{
+	text-align: center;
+}
+.form label{
+	color: var(--primary-color-alt);
+	margin: 1rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.form input{
+	margin: auto;
+}
+
+#date,#luckyNo{
+	padding: .8rem;
+	border-radius: 1rem;
+	border: 3px solid var(--primary-color);
+	
+}
+
+.button{
+	margin: 1rem;
+	padding: .8rem;
+	border-radius: 1rem;
+	border: 3px solid var(--primary-color);
+	background-color: var(--primary-color-alt);
+	color: var(--secondary-color);
+}
+
+.output{
+	text-align: center;
+	margin: 1rem;
+	color: var(--primary-color);
+	font-weight: 600;
+	font-size: x-large;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.footer-heading{
+	color: var(--primary-color-alt);
+	font-size: x-large;
+}
+
+.footer-icons i{
+	margin: .5rem;
+	font-size: xx-large;
+	color: var(--primary-color-alt);
+	margin-bottom: 1rem;
+}
